@@ -175,17 +175,14 @@ Given the results obtained when comparing the different models studied, it seems
 In summary, I compared the AUC Precision-Recall scores for the SMOTE datasets and decided to select the feedforward neural network model to be used in the task of predicting if an auto insurance claim is a fraudulent claim or not.
 We can see the table that summarizes the  AUC Precision-Recall scores
 
-
-
-
-| **Model** | **TRAIN **
-**AUC Precision-Recall scores** | **TEST**
-** AUC Precision-Recall scores** | 
-| --- | --- | --- |
-| Random Forest | 1.0 | 0.4677 | 
-| Naive Bayes | 0.7946 | 0.4980 | 
-| Logistic Regression | 0.8855 | 0.3555 | 
-| Feedforward neural network | 0.75 | 0.622 | 
+AUC Precision-Recall scores
+-------------------------------------------
+Model | TRAIN | TEST
+------------ | ------------- |------------- 
+Random Forest | 1.0 | 0.4677 
+Naive Bayes | 0.7946 | 0.4980 
+Logistic Regression | 0.8855 | 0.3555 
+Feedforward neural network | 0.75 | 0.622 
 
 # FUTURE IMPROVEMENTS
 Some improvements to the analysis will be to perform a hyperparameter tuning on the feedforward neural network to see if we can achieve more accurate predictions.
