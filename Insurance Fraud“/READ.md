@@ -73,13 +73,15 @@ collision_type | 17.8%
 
 We can see that the non fraud claims represent 75.3% of the database and the fraud claims represent 24.7% of the database.
 This database is considered an imbalanced dataset because the fraud and the non fraud claims are not represented equally. This issue is going to be addressed in the modeling section of this report.
-![](WARN_REPLACE_IMG_URL)
 
-# The objective of this exploratory data analysis is to identify features that could be relevant contributors in determining if a given auto claim is a fraud or not.
+<img width="963" alt="piechart" src="https://user-images.githubusercontent.com/44710328/137051208-0053fb35-066e-4f53-a3b2-370ed6438400.png">
 
-# We start by looking for the correlation between some features. The relevant correlations that I could find were between total claim amount and vehicle claim; these features present a positive correlation. Also property claim amount and Injury claim and age and months as customers have a positive correlation. We can see it represented in the following chart.
+The objective of this exploratory data analysis is to identify features that could be relevant contributors in determining if a given auto claim is a fraud or not.
+
+We start by looking for the correlation between some features. The relevant correlations that I could find were between total claim amount and vehicle claim; these features present a positive correlation. Also property claim amount and Injury claim and age and months as customers have a positive correlation. We can see it represented in the following chart.
 
 # ![](WARN_REPLACE_IMG_URL)
+
 While looking at the number of claims by the level of education of the insured in conjunction with the case if they filed a police report of the accident, I found that there is not a clear difference by education level of the fraud or non fraud claims. But it seems that some people will file a police report even if they are filing a fraudulent claim.
 ![](WARN_REPLACE_IMG_URL)
 
