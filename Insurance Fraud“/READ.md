@@ -92,20 +92,16 @@ As we saw before there are some fraud claims where there are police reports file
 
 By observing the number of non fraud claims given the hour of the day, there is an increase of claims during rush hour between 8:00am and 9:00am, then we see a decline before lunch time and then  an increase around lunch hour, then they decrease just to pick up again on rush hour between 4:00pm and 6:00pm. We can consider this a regular behavior for working people.
 
-# On the other hand we can see that for the claims that were frauds the number of claims decreases during rush hour between 8:00am and 9:00am, they increase before lunch time, then there is a decline during lunch time and they increase after lunch between 1:00pm and 4:00pm. Then they decrease again during rush hour after 4:00pm. It is until  after 10:00pm when both fraud and non fraud claims increase in the same direction.
+On the other hand we can see that for the claims that were frauds the number of claims decreases during rush hour between 8:00am and 9:00am, they increase before lunch time, then there is a decline during lunch time and they increase after lunch between 1:00pm and 4:00pm. Then they decrease again during rush hour after 4:00pm. It is until  after 10:00pm when both fraud and non fraud claims increase in the same direction.
 This behavior may indicate that the people that commit fraud may be unemployed and go out during office hours to file the fraud claims.
 
-# ![](WARN_REPLACE_IMG_URL)
+<img width="708" alt="AccidentByHour" src="https://user-images.githubusercontent.com/44710328/137055316-455d3c72-9c1f-46e6-9514-feac9edea67b.png">
 
-# 
-
-# 
-
-# When we look at the auto claims by incident severity, we can see that for regular claims, the majority of the claims are considered minor damage (42%) and the second higher category will be total loss (32.4%). For the fraudulent claims, we see that the grand majority of the claims are considered major damage (67.6%), followed by minor damage (15.4%), and total loss (14.6%). This may  indicate that people that commit fraud may be inclined to  try to get a significant reward for their acts.
+When we look at the auto claims by incident severity, we can see that for regular claims, the majority of the claims are considered minor damage (42%) and the second higher category will be total loss (32.4%). For the fraudulent claims, we see that the grand majority of the claims are considered major damage (67.6%), followed by minor damage (15.4%), and total loss (14.6%). This may  indicate that people that commit fraud may be inclined to  try to get a significant reward for their acts.
 
 # ![](WARN_REPLACE_IMG_URL)
 
-# The auto claims can be classified depending on the incident type. We can see that for claims that involve multi-vehicle collision and single vehicle collision the percentage of fraud claims is higher than when claims happen when the car is parked or it is a case of vehicle theft.
+The auto claims can be classified depending on the incident type. We can see that for claims that involve multi-vehicle collision and single vehicle collision the percentage of fraud claims is higher than when claims happen when the car is parked or it is a case of vehicle theft.
 ![](WARN_REPLACE_IMG_URL)
 
 # MODELING
