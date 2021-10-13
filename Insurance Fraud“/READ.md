@@ -99,7 +99,7 @@ This behavior may indicate that the people that commit fraud may be unemployed a
 
 When we look at the auto claims by incident severity, we can see that for regular claims, the majority of the claims are considered minor damage (42%) and the second higher category will be total loss (32.4%). For the fraudulent claims, we see that the grand majority of the claims are considered major damage (67.6%), followed by minor damage (15.4%), and total loss (14.6%). This may  indicate that people that commit fraud may be inclined to  try to get a significant reward for their acts.
 
-# ![](WARN_REPLACE_IMG_URL)
+<img width="711" alt="AccidentSeverity" src="https://user-images.githubusercontent.com/44710328/137055430-143511b7-0e54-4a72-9146-d56d3db22945.png">
 
 The auto claims can be classified depending on the incident type. We can see that for claims that involve multi-vehicle collision and single vehicle collision the percentage of fraud claims is higher than when claims happen when the car is parked or it is a case of vehicle theft.
 ![](WARN_REPLACE_IMG_URL)
