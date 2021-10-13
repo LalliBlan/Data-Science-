@@ -130,18 +130,21 @@ A precision-recall curve (or PR Curve) is a plot of the precision (y-axis) and t
 
 The Precision-Recall AUC is a score that can be used as a point of comparison between different models on a binary classification problem where a score of 1.0 represents a model with perfect skill.
 Now that we defined the metric used let me summarize the findings by model.
-**RANDOM FOREST**
+## RANDOM FOREST
 I used a RandonForesClassifier from the sklearn’s library in python with 100 estimators  and entropy criterion. I called the baseline model the model that uses the imbalanced claims data and SMOTE model the one that uses the oversampled data.
 We can see that the both models are overfitting and for the test data it seems that the baseline model performs better than the SMOTE model.
 
 ![V4_Insurance_Auto_Claims_fraud_detection_Citlalli_Blanchet_cell_154_output_0](https://user-images.githubusercontent.com/44710328/137056022-669247a1-b5ba-435b-a4fe-bc41b11ab174.png)
 
 
-**NAIVE BAYES **
-I used a Gaussian Naive Bayesian classifier from the sklearn python library. We can see that  for testing both models perform basically the same. But still they both have a low value of AUC precision-recall.
-![](WARN_REPLACE_IMG_URL)
+## NAIVE BAYES 
 
-**LOGISTIC REGRESSION**
+I used a Gaussian Naive Bayesian classifier from the sklearn python library. We can see that  for testing both models perform basically the same. But still they both have a low value of AUC precision-recall.
+
+
+![V4_Insurance_Auto_Claims_fraud_detection_Citlalli_Blanchet_cell_172_output_0](https://user-images.githubusercontent.com/44710328/137056206-b8a717f9-3566-4a54-a6b9-0ab435dd3b44.png)
+
+## LOGISTIC REGRESSION
 For this model I used the LogisticRegression model of the sklearn python library. I wanted to test different values of the inverse regularization parameter,C , and selected the value of C that maximized the accuracy of the model.
 The inverse regularization parameter  is a control variable. It is defined as C = 1/λ where λ is called the regularization parameter. The parameter λ controls the trade-off between two goals: fitting the training data well vs keeping the params small to avoid overfitting. For the different values of C tested I selected C=1 which produced an accuracy value of 0.58. We can see the different values in the following table.
 | 
