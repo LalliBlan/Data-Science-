@@ -161,18 +161,22 @@ C parameter | Accuracy
 
 After selecting the inverse regularization parameter, I tested the model with the baseline dataset and the oversampled SMOTE dataset.
 
-![](WARN_REPLACE_IMG_URL)
+![V4_Insurance_Auto_Claims_fraud_detection_Citlalli_Blanchet_cell_197_output_0](https://user-images.githubusercontent.com/44710328/137058542-fc34a9ff-9e3f-4253-8adc-7a03737f13a1.png)
 
 We can see that the SMOTE model performs better. But still we get a AUC Precision-Recall of 0.356 on the training dataset.
 **FEEDFORWARD NEURAL NETWORK**
 For this model I used tensorflow to model the feedforward neural network. I modeled a multilayer network with a sigmoidal function and a binary cross entropy loss function.
-›
+![V4_Insurance_Auto_Claims_fraud_detection_Citlalli_Blanchet_cell_221_output_0](https://user-images.githubusercontent.com/44710328/137058844-7255ab5b-be09-4b39-a03e-734cca9b6d2a.png)
+
 
 Given the results obtained when comparing the different models studied, it seems that the model to select is the feedforward neural network. It does not overfit as much as the other models and has aAUC Precision-Recall score of 0.622.
 
 # SUMMARY
 In summary, I compared the AUC Precision-Recall scores for the SMOTE datasets and decided to select the feedforward neural network model to be used in the task of predicting if an auto insurance claim is a fraudulent claim or not.
 We can see the table that summarizes the  AUC Precision-Recall scores
+
+
+
 
 | **Model** | **TRAIN **
 **AUC Precision-Recall scores** | **TEST**
