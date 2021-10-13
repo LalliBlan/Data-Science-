@@ -147,19 +147,22 @@ I used a Gaussian Naive Bayesian classifier from the sklearn python library. We 
 ## LOGISTIC REGRESSION
 For this model I used the LogisticRegression model of the sklearn python library. I wanted to test different values of the inverse regularization parameter,C , and selected the value of C that maximized the accuracy of the model.
 The inverse regularization parameter  is a control variable. It is defined as C = 1/λ where λ is called the regularization parameter. The parameter λ controls the trade-off between two goals: fitting the training data well vs keeping the params small to avoid overfitting. For the different values of C tested I selected C=1 which produced an accuracy value of 0.58. We can see the different values in the following table.
-| 
-## ›C parameter | 
-## Accuracy | 
-| --- | --- |
-| 0.001 | 0.521 | 
-| 0.010 | 0.542 | 
-| 0.10 | 0.5483 | 
-| **1.0** | **0.5841** | 
-| 10.0 | 0.5851 | 
-| 100.0 | 0.556 | 
+
+C parameter | Accuracy 
+------------ | -------------
+0.001 | 0.521 
+0.010 | 0.542 
+0.10 | 0.5483 
+**1.0** | **0.5841** 
+10.0 | 0.5851 
+100.0 | 0.556 
+
+
 
 After selecting the inverse regularization parameter, I tested the model with the baseline dataset and the oversampled SMOTE dataset.
+
 ![](WARN_REPLACE_IMG_URL)
+
 We can see that the SMOTE model performs better. But still we get a AUC Precision-Recall of 0.356 on the training dataset.
 **FEEDFORWARD NEURAL NETWORK**
 For this model I used tensorflow to model the feedforward neural network. I modeled a multilayer network with a sigmoidal function and a binary cross entropy loss function.
