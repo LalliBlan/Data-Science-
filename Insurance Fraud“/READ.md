@@ -118,19 +118,24 @@ Before talking about the findings for each of these models, let me explain the m
 I used the Precision-Recall AUC. Precision is a metric that quantifies the number of correct positive predictions made.
 It is calculated as the number of true positives divided by the total number of true positives and false positives.
 * ***Precision = TruePositives / (TruePositives + FalsePositives)***
+
 The result is a value between 0.0 for no precision and 1.0 for full or perfect precision.
 Recall is a metric that quantifies the number of correct positive predictions made out of all positive predictions that could have been made. It is calculated as the number of true positives divided by the total number of true positives and false negatives (e.g. it is the true positive rate).
 * ***Recall = TruePositives / (TruePositives + FalseNegatives)***
+
 The result is a value between 0.0 for no recall and 1.0 for full or perfect recall.
 Both the precision and the recall are focused on the positive class (the minority class or fraud class) and are unconcerned with the true negatives (majority class or non fraud class).
 A precision-recall curve (or PR Curve) is a plot of the precision (y-axis) and the recall (x-axis).
 * ***PR Curve: Plot of Recall (x) vs Precision (y).***
+
 The Precision-Recall AUC is a score that can be used as a point of comparison between different models on a binary classification problem where a score of 1.0 represents a model with perfect skill.
 Now that we defined the metric used let me summarize the findings by model.
 **RANDOM FOREST**
 I used a RandonForesClassifier from the sklearn’s library in python with 100 estimators  and entropy criterion. I called the baseline model the model that uses the imbalanced claims data and SMOTE model the one that uses the oversampled data.
 We can see that the both models are overfitting and for the test data it seems that the baseline model performs better than the SMOTE model.
+
 ![](WARN_REPLACE_IMG_URL)
+
 **NAIVE BAYES **
 I used a Gaussian Naive Bayesian classifier from the sklearn python library. We can see that  for testing both models perform basically the same. But still they both have a low value of AUC precision-recall.
 ![](WARN_REPLACE_IMG_URL)
