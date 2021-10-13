@@ -134,7 +134,8 @@ Now that we defined the metric used let me summarize the findings by model.
 I used a RandonForesClassifier from the sklearn’s library in python with 100 estimators  and entropy criterion. I called the baseline model the model that uses the imbalanced claims data and SMOTE model the one that uses the oversampled data.
 We can see that the both models are overfitting and for the test data it seems that the baseline model performs better than the SMOTE model.
 
-![](WARN_REPLACE_IMG_URL)
+![V4_Insurance_Auto_Claims_fraud_detection_Citlalli_Blanchet_cell_154_output_0](https://user-images.githubusercontent.com/44710328/137056022-669247a1-b5ba-435b-a4fe-bc41b11ab174.png)
+
 
 **NAIVE BAYES **
 I used a Gaussian Naive Bayesian classifier from the sklearn python library. We can see that  for testing both models perform basically the same. But still they both have a low value of AUC precision-recall.
