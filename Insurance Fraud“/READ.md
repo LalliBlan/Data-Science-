@@ -88,7 +88,7 @@ While looking at the number of claims by the level of education of the insured i
 
 As we saw before there are some fraud claims where there are police reports filed. It also seems that even though they are fraud claims, people still contact different authorities like ambulances, the fire department, and even the police. The fact that it seems that fraud claims contact the police less frequently than the non fraud claims may be something interesting to investigate.
 
-# ![](WARN_REPLACE_IMG_URL)
+<img width="731" alt="AuthoritiesContacted" src="https://user-images.githubusercontent.com/44710328/137055215-c8af2559-0e6d-41d4-8b68-49393dfbad4d.png">
 
 By observing the number of non fraud claims given the hour of the day, there is an increase of claims during rush hour between 8:00am and 9:00am, then we see a decline before lunch time and then  an increase around lunch hour, then they decrease just to pick up again on rush hour between 4:00pm and 6:00pm. We can consider this a regular behavior for working people.
 
