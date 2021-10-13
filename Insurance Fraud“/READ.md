@@ -102,7 +102,7 @@ When we look at the auto claims by incident severity, we can see that for regula
 <img width="711" alt="AccidentSeverity" src="https://user-images.githubusercontent.com/44710328/137055430-143511b7-0e54-4a72-9146-d56d3db22945.png">
 
 The auto claims can be classified depending on the incident type. We can see that for claims that involve multi-vehicle collision and single vehicle collision the percentage of fraud claims is higher than when claims happen when the car is parked or it is a case of vehicle theft.
-![](WARN_REPLACE_IMG_URL)
+![FraudIncidentType](https://user-images.githubusercontent.com/44710328/137055612-d00644d1-52ea-41dd-ae7c-d2e8b4d67b3f.png)
 
 # MODELING
 Usually fraud detection problems have imbalance data sets where there is a disproportion among the number of examples of each class of the problem. In this case the number of fraudulent transactions just represent 24.7% of the claims reported.
